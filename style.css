@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #303030;
+  text-align: center;
+  margin: 20px 0px 0px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  color: rgb(239,235, 228);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 33vw;
+}
+
+header h1 {
+  margin: 20px 0px 40px 0px;
+}
+
+
+section{
+  background-color: rgb(239,235, 228);
+  padding: 15px;
+  border-radius: 10px;
+  width: 35%;
+  margin: auto;
+}
+
+#btn{
+  background-color: #0C70F2;
+  border: none;
+  color: rgb(239,235, 228) ;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.form{
+  padding: 10px;
+  border: none;
+  margin: 15px 0px 20px 0px;
+  border-radius: 10px; 
+  height: 30px;
+  width: 200px;
+
+}
+
+
+
+
